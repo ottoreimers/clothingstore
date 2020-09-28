@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="clothes.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Source+Sans+Pro:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Sacramento&family=Source+Sans+Pro:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poiret+One&family=Sacramento&family=Source+Sans+Pro:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Clothes</title>
+  </head>
+  <body>
+    <main>
+      <header tabindex="1">Clothes.com</header>
+      <nav class="nav-bar" role="navigation">
+        <ul aria-label="Navigation bar with 4 objects">
+          <!--<li><a href="#" tabindex="2">Home</a></li>-->
+          <li><a href="#sweaters" tabindex="2">Sweaters</a></li>
+          <li><a href="#jeans" tabindex="2">Jeans</a></li>
+          <li><a href="#shoes" tabindex="2">Shoes</a></li>
+          <input class="search-bar" type="text" placeholder="Search">
+        </ul>
+      </nav>
+      <article class="layout">
+        <section>
+          <h3 tabindex="3" id="sweaters">Sweaters</h3>
+          <img
+            src="https://cdn.pixabay.com/photo/2016/03/27/19/31/fashion-1283863_960_720.jpg"
+            aria-label="A knitted sweater"
+            alt="Cozy shirt"
+            width="200"
+          />
+          <a tabindex="3" href="#" class="myButton" aria-label="buy sweater">399 SEK</a>
+          <p tabindex="3">
+        </section>
+        <section>
+          <h3 tabindex="3" id="jeans">Jeans</h3>
+          <img
+            src="https://cdn.pixabay.com/photo/2013/07/25/11/52/clothes-166848_960_720.jpg"
+            aria-label="Three pair of jeans"
+            alt="buy Jeans"
+            width="200"
+          />
+          <a tabindex="3" href="#" class="myButton" aria-label="buy jeans" >599 SEK</a>
+        </section>
+        <section>
+          <h3 tabindex="3" id="shoes">Shoes</h3>
+          <img
+            src="https://cdn.pixabay.com/photo/2015/01/03/03/51/sandals-587185_960_720.jpg"
+            aria-label="A high-heeled womens shoe"
+            alt="Shoes"
+            width="200"
+          />
+          <a tabindex="3" href="#" class="myButton" aria-label="buy shoes">999 SEK</a>
+        </section>
+      </article>
+      <div class="embeded">
+        <iframe width="100%" height="450"
+          src="https://www.youtube.com/embed/8da1nXckEy4"
+          allowfullscreen
+          aria-label="Youtube video of Why clothes matter and a "
+        ></iframe>
+        <embed
+          src="https://drive.google.com/file/d/19zkwiVX9k0XlicRdEQnINZuvtHDPFblX/preview"
+          width="640"
+          height="480"
+          type="application/pdf"
+          aria-label="PDF of body measurements"
+        />
+      </div>
+    </main>
+    <footer role="contentinfo">
+      <p>
+        Email:<a href="mailto:otto.reimers@gmail.com" aria-label="email adress"
+          >otto.reimers@chasacademy.se</a
+        >
+      </p>
+      <p>
+        Telephone:<a href="tel:+4673-6422674" aria-label="telephone number"
+          >+4673-6422674</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
