@@ -152,8 +152,14 @@ footer a:hover {
     width: 100%;
     margin: 0;
   }
-  .embeded {
-    padding-left: 30px;
+  .embeded iframe {
+    position: relative;
+    width: 355px;
+    height: 0 auto;
+  }
+  .embeded embed {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
@@ -178,13 +184,17 @@ footer a:hover {
     -webkit-column-gap: 50px;
             column-gap: 50px;
   }
-  iframe {
+  .embeded {
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 50px;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    grid-gap: 100px;
+  }
+  .embeded iframe {
+    position: relative;
+    width: 400px;
+    height: 0 auto;
+  }
+  .embeded embed {
+    width: 100%;
   }
   footer {
     font-size: 13px;
@@ -223,15 +233,12 @@ footer a:hover {
     -webkit-column-gap: 50px;
             column-gap: 50px;
   }
-  iframe,
-  embed {
+  .embeded {
     text-align: center;
+    margin: 0 auto;
     margin-bottom: 50px;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
-    grid-gap: 100px;
+    width: 700px;
+    height: auto;
   }
   footer {
     font-size: 20px;
@@ -259,6 +266,12 @@ footer a:hover {
         grid-template-columns: repeat(3, 1fr);
     -webkit-column-gap: 50px;
             column-gap: 50px;
+  }
+  .embeded {
+    text-align: center;
+    margin: 0 auto;
+    width: 950px;
+    height: auto;
   }
   footer p {
     margin: -10px;
@@ -291,6 +304,10 @@ footer a:hover {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     font-size: 20px;
+  }
+  .embeded {
+    text-align: center;
+    margin: 0 auto;
   }
   footer p {
     font-family: "Poiret One", cursive;
