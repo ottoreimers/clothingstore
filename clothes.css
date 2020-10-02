@@ -55,9 +55,10 @@ header {
   font-size: 20px;
   font-family: "Poiret One", cursive;
   float: none;
+  position: relative;
   display: block;
   text-align: left;
-  width: 100%;
+  max-width: 180px;
 }
 
 .layout article {
@@ -155,7 +156,6 @@ footer a:hover {
   .embeded iframe {
     position: relative;
     width: 355px;
-    height: 0 auto;
   }
   .embeded embed {
     width: 100%;
@@ -170,7 +170,6 @@ footer a:hover {
   .nav-bar .search-bar {
     text-align: left;
     width: 100%;
-    margin: 0 auto;
   }
   header {
     font-size: 65px;
@@ -191,7 +190,6 @@ footer a:hover {
   .embeded iframe {
     position: relative;
     width: 400px;
-    height: 0 auto;
   }
   .embeded embed {
     width: 100%;
@@ -208,8 +206,8 @@ footer a:hover {
     margin: 500px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   ul .search-bar {
     width: 100%;
@@ -228,8 +226,8 @@ footer a:hover {
     padding-left: 10px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     -webkit-column-gap: 50px;
             column-gap: 50px;
   }
@@ -245,8 +243,8 @@ footer a:hover {
     padding: 20px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -262,8 +260,8 @@ footer a:hover {
     padding-left: 50px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     -webkit-column-gap: 50px;
             column-gap: 50px;
   }
@@ -291,8 +289,8 @@ footer a:hover {
     padding: 50px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     -webkit-column-gap: 50px;
             column-gap: 50px;
   }
