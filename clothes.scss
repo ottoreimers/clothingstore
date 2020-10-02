@@ -70,9 +70,10 @@ header {
       font-size: 20px;
       font-family: $font-poiret-one;
     float: none;
+    position: relative;
     display: block;
     text-align: left;
-    width: 100%;
+    max-width: 180px;
   }
 }
 
@@ -166,7 +167,6 @@ footer {
     iframe {
       position: relative;
       width: 355px;
-      height: 0 auto;
     }
 
     embed {
@@ -182,7 +182,6 @@ footer {
     .search-bar {
         text-align: left;
         width: 100%;
-        margin: 0 auto;
     }
   }
 
@@ -202,9 +201,7 @@ footer {
     iframe {
       position: relative;
       width: 400px;
-      height: 0 auto;
     }
-
     embed {
       width: 100%;
     }
@@ -222,7 +219,7 @@ footer {
     text-align: center;
     margin: 500px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 
     .search-bar {
         width: 100%;
@@ -245,7 +242,7 @@ footer {
     margin: 10px;
     padding-left: 10px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 50px;
   }
 
@@ -261,7 +258,7 @@ footer {
     font-size: 20px;
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -275,7 +272,7 @@ footer {
     margin: 50px;
     padding-left: 50px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 50px;
   }
 
@@ -305,7 +302,7 @@ footer {
     margin: 50px;
     padding: 50px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 50px;
   }
   h3 {
